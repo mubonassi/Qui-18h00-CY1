@@ -1,0 +1,16 @@
+print("PERFIL INTERATIVO")
+
+nome = input("Digite o seu nome: ")
+idade = input("Digite a sua idade: ")
+cidade = input("Digite a sua cidade: ")
+altura = input("Digite a sua altura ")
+jogoFavorito = input("Digite o seu jogo favorito: ")
+time = input("Digite o time que você torce: ")
+
+print("| PERFIL DA PESSOA | ")
+print(f"| Nome: {nome}")
+print(f"| Idade: {idade} anos")
+print(f"| Cidade: {cidade}")
+print(f"| Altura: {altura}m")
+print(f"| Jogo Favorito: {jogoFavorito}")
+print(f"| Time que torce (aparentemente): {time}")
