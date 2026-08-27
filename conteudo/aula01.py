@@ -12,7 +12,7 @@ print("Hello, World!")
 
 #Tipos de Dados
 #Texto -> String
-print("Sei lá, um texto aleatório aqui")
+print("Sei lá, um texto aleatório aqui\nOutra Linha")
 
 #Número Inteiro - Integer/Int
 print(56)
