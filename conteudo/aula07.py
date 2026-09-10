@@ -16,5 +16,17 @@ print(lista3)
 
 #Exibindo um item específico da lista
 #lista[indice] -> indice é um número inteiro que indica a posição do item na lista
-item = lista1[0]
+indice = 0
+item = lista1[indice]
 print(f"1º Item: {item}")
+
+#Verificando um item dentro da lista
+item = input("Digite um dos itens da lista: ")
+if item in lista1:
+    print("Você digitou um item existente")
+else:
+    print("AAAAAAAAAAAAAAAAAAAAAAAAAAA")
+    
+#Puxando o indice da lista
+indice = lista1.index(item)
+print(f"O item {item} tem a indice {indice} na lista")
