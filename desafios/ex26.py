@@ -8,9 +8,7 @@ usuario = input(">> Digite o nome do usuário: ")
 
 if usuario in usuarios:
     senha = input(f">> Digite a senha do {usuario}: ")
-    
     indice = usuarios.index(usuario)
-    
     if senha == senhas[indice]:
         print("** Sistema autenticado! **")
     else:
