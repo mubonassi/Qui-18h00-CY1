@@ -27,4 +27,18 @@ print("-- Fim da Repetição --")
 #[10,20,30,40,50]
 for i in range(10,50+1,10):
     print(i)
+    
 print("-- Fim da Repetição --")
+
+lista = ["oi","a","123","abcd"]
+for i in lista:
+    print(i)
+    
+print("-- Fim da Repetição --")
+
+palavra = "globo"
+for i in palavra:
+    print(i)
+        
+print("-- Fim da Repetição --")
+
